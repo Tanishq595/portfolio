@@ -18,7 +18,7 @@ export default function Projects() {
         "A full-featured crypto application with payment integration, wallet connection and creation, and minting LST tokens features.",
      
     
-  image: "https://raw.githubusercontent.com/Tanishq595/portfolio/main/public/images/projects/crypto.png?height=300&width=500",
+  image: "/crypto.PNG?height=300&width=500",
 
       tags: ["React", "Node.js", "MongoDB", "Wagmi"],
       github: "https://github.com/Tanishq595/BifrostSample1",
