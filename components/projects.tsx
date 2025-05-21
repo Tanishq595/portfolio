@@ -13,6 +13,15 @@ export default function Projects() {
 
   const projects = [
     {
+ {
+      title: "Social Media Automation (In Progress)",
+      description: "A web app that lets users create posts by uploading content/images or generating AI-powered drafts. Users can refine the output before confirming, and the finalized post is automatically shared across their connected social media accounts (Instagram, Twitter, Facebook, etc.)."
+      image: "/media.png?height=300&width=500",
+      tags: ["React", "Node.js", "MongoDB","Tailwind" ,"web"],
+      github: "https://github.com/Tanishq595/Social-Media-Automation",
+      demo: "https://social-media-automation-swart.vercel.app/",
+    },
+      
       title: "DotAI Crypto Web Application",
       description:
         "A full-featured crypto application with real-time transaction integration, wallet connection and creation, and minting LST tokens features.",
@@ -49,14 +58,7 @@ export default function Projects() {
       github: "https://github.com/Tanishq595/tanishq595.github.io",
       demo: "https://jinshang-see.github.io/JinShangGroup.github.io/home.html",
     },
-    // {
-    //   title: "Inventory Management System",
-    //   description: "A comprehensive inventory management system for small businesses with barcode scanning.",
-    //   image: "/placeholder.svg?height=300&width=500",
-    //   tags: ["React", "Node.js", "PostgreSQL", "web"],
-    //   github: "#",
-    //   demo: "#",
-    // },
+   
     // {
     //   title: "Social Media Dashboard",
     //   description: "An analytics dashboard for social media managers with data visualization and reporting.",
