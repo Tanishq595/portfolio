@@ -16,10 +16,10 @@ export default function Projects() {
       title: "Crypto Web Application",
       description:
         "A full-featured crypto application with payment integration, wallet connection and creation, and minting LST tokens features.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/crypto.png?height=300&width=500",
       tags: ["React", "Node.js", "MongoDB", "Wagmi"],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/Tanishq595/BifrostSample1",
+      
     },
     // {
     //   title: "Task Management App",
