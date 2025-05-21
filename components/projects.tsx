@@ -59,14 +59,14 @@ export default function Projects() {
       demo: "https://jinshang-see.github.io/JinShangGroup.github.io/home.html",
     },
    
-    // {
-    //   title: "Social Media Dashboard",
-    //   description: "An analytics dashboard for social media managers with data visualization and reporting.",
-    //   image: "/placeholder.svg?height=300&width=500",
-    //   tags: ["Vue.js", "D3.js", "web"],
-    //   github: "#",
-    //   demo: "#",
-    // },
+    {
+      title: "HKIU Website - University Project",
+      description: "A university project for the web development course to make a fully functional university website to showcase full knoelwdge of HTML , CSS and javascript.",
+      image: "/placeholder.svg?height=300&width=500",
+      tags: ["HTML", "CSS","Javascript", "web"],
+      github: "https://github.com/Tanishq595/HKIU-website",
+      demo: "#",
+    },
   ]
 
   const filteredProjects =
