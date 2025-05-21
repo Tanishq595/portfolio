@@ -78,7 +78,7 @@ export default function Navbar() {
                 </Link>
               </motion.div>
             ))}
-            <div className="flex items-center space-x-3">
+{/*             <div className="flex items-center space-x-3">
               {[Github, Linkedin, Twitter].map((Icon, index) => (
                 <motion.div
                   key={index}
@@ -98,7 +98,67 @@ export default function Navbar() {
                   </Button>
                 </motion.div>
               ))}
-            </div>
+            </div> */}
+
+            <div className="flex items-center space-x-3">
+  <motion.div
+    initial={{ opacity: 0, scale: 0 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ delay: 0.5 }}
+    whileHover={{ scale: 1.2, rotate: 10 }}
+    whileTap={{ scale: 0.9 }}
+  >
+    <Button 
+      variant="ghost" 
+      size="icon" 
+      className="rounded-full" 
+      asChild
+    >
+      <a href="https://github.com/Tanishq595" target="_blank" rel="noopener noreferrer">
+        <Github className="h-5 w-5" />
+      </a>
+    </Button>
+  </motion.div>
+
+  <motion.div
+    initial={{ opacity: 0, scale: 0 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ delay: 0.6 }}
+    whileHover={{ scale: 1.2, rotate: 10 }}
+    whileTap={{ scale: 0.9 }}
+  >
+    <Button 
+      variant="ghost" 
+      size="icon" 
+      className="rounded-full" 
+      asChild
+    >
+      <a href="https://www.linkedin.com/in/tanishqagarwal595/" target="_blank" rel="noopener noreferrer">
+        <Linkedin className="h-5 w-5" />
+      </a>
+    </Button>
+  </motion.div>
+
+  {/* Add Twitter if you have one */}
+  <motion.div
+    initial={{ opacity: 0, scale: 0 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ delay: 0.7 }}
+    whileHover={{ scale: 1.2, rotate: 10 }}
+    whileTap={{ scale: 0.9 }}
+  >
+    <Button 
+      variant="ghost" 
+      size="icon" 
+      className="rounded-full" 
+      asChild
+    >
+      <a href="https://x.com/tanishq596" target="_blank" rel="noopener noreferrer">
+        <Twitter className="h-5 w-5" />
+      </a>
+    </Button>
+  </motion.div>
+</div>
             <motion.div
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -165,7 +225,7 @@ export default function Navbar() {
                   {link.name}
                 </Link>
               ))}
-              <div className="flex items-center space-x-3 py-2">
+{/*               <div className="flex items-center space-x-3 py-2">
                 <Button variant="ghost" size="icon" className="rounded-full">
                   <Github className="h-5 w-5" />
                 </Button>
@@ -175,7 +235,30 @@ export default function Navbar() {
                 <Button variant="ghost" size="icon" className="rounded-full">
                   <Twitter className="h-5 w-5" />
                 </Button>
-              </div>
+              </div> */}
+              <div className="flex items-center space-x-3 py-2">
+  <Button 
+    variant="ghost" 
+    size="icon" 
+    className="rounded-full"
+    asChild
+  >
+    <a href="https://github.com/Tanishq595" target="_blank" rel="noopener noreferrer">
+      <Github className="h-5 w-5" />
+    </a>
+  </Button>
+  <Button 
+    variant="ghost" 
+    size="icon" 
+    className="rounded-full"
+    asChild
+  >
+    <a href="https://www.linkedin.com/in/tanishqagarwal595/" target="_blank" rel="noopener noreferrer">
+      <Linkedin className="h-5 w-5" />
+    </a>
+  </Button>
+  {/* Add Twitter if needed */}
+</div>
               <Button className="bg-emerald-500 hover:bg-emerald-600 text-black w-full">Resume</Button>
             </nav>
           </div>
