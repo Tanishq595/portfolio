@@ -115,18 +115,18 @@ export default function Contact() {
             <h3 className="text-2xl font-bold mb-6">Follow Me</h3>
 
             <div className="flex space-x-4">
-              <a href="#" className="bg-gray-900 p-3 rounded-lg hover:bg-emerald-500/10 transition-colors">
+              <a href="http://github.com/Tanishq595" className="bg-gray-900 p-3 rounded-lg hover:bg-emerald-500/10 transition-colors">
                 <Github className="h-6 w-6 text-emerald-500" />
               </a>
-              <a href="#" className="bg-gray-900 p-3 rounded-lg hover:bg-emerald-500/10 transition-colors">
+              <a href="https://www.linkedin.com/in/tanishqagarwal595/" className="bg-gray-900 p-3 rounded-lg hover:bg-emerald-500/10 transition-colors">
                 <Linkedin className="h-6 w-6 text-emerald-500" />
               </a>
-              <a href="#" className="bg-gray-900 p-3 rounded-lg hover:bg-emerald-500/10 transition-colors">
+{/*               <a href="#" className="bg-gray-900 p-3 rounded-lg hover:bg-emerald-500/10 transition-colors">
                 <Twitter className="h-6 w-6 text-emerald-500" />
-              </a>
+              </a> */}
             </div>
 
-            <div className="mt-10">
+{/*             <div className="mt-10">
               <Card className="bg-gray-900 border-gray-800 overflow-hidden">
                 <CardContent className="p-0">
                   <div className="aspect-video w-full bg-gray-800 flex items-center justify-center">
@@ -135,7 +135,29 @@ export default function Contact() {
                   </div>
                 </CardContent>
               </Card>
-            </div>
+            </div> */}
+
+
+            <div className="mt-10">
+  <Card className="bg-gray-900 border-gray-800 overflow-hidden">
+    <CardContent className="p-0">
+      <div className="relative aspect-video w-full">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.439205608908!2d114.17014507556202!3d22.337039141562265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404073400f3ef35%3A0xeb61704ffb0ba959!2sCity%20University%20of%20Hong%20Kong%20(CityU)!5e0!3m2!1sen!2sin!4v1747827412027!5m2!1sen!2sin"
+          width="100%"
+          height="100%"
+          className="absolute inset-0"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+        {/* Optional dark overlay */}
+        <div className="absolute inset-0 bg-black/20 pointer-events-none" />
+      </div>
+    </CardContent>
+  </Card>
+</div>
           </motion.div>
 
           <motion.div
