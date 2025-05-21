@@ -121,9 +121,9 @@ export default function Contact() {
               <a href="https://www.linkedin.com/in/tanishqagarwal595/" className="bg-gray-900 p-3 rounded-lg hover:bg-emerald-500/10 transition-colors">
                 <Linkedin className="h-6 w-6 text-emerald-500" />
               </a>
-{/*               <a href="#" className="bg-gray-900 p-3 rounded-lg hover:bg-emerald-500/10 transition-colors">
+              <a href="https://x.com/tanishq596" className="bg-gray-900 p-3 rounded-lg hover:bg-emerald-500/10 transition-colors">
                 <Twitter className="h-6 w-6 text-emerald-500" />
-              </a> */}
+              </a>
             </div>
 
 {/*             <div className="mt-10">
