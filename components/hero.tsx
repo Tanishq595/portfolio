@@ -207,7 +207,7 @@ export default function Hero() {
   className="border-emerald-500 text-emerald-500 hover:bg-emerald-500/10 relative overflow-hidden group"
   whileHover={{ scale: 1.05 }}
   whileTap={{ scale: 0.95 }}
-  onClick={() => window.location.href = '/portfolio/contact'}
+  onClick={() => window.location.href = '#contact'}
 >
   <span className="absolute inset-0 w-0 bg-emerald-500/10 group-hover:w-full transition-all duration-300" />
   <span className="relative z-10">Contact Me</span>
