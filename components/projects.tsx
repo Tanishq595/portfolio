@@ -15,7 +15,7 @@ export default function Projects() {
     
  {
       title: "Social Media Automation (In Progress)",
-      description: "A web app that lets users create posts by uploading content/images or generating AI-powered drafts. Users can refine the output before confirming, and the finalized post is automatically shared across their connected social media accounts (Instagram, Twitter, Facebook, etc.)."
+      description: "A web app that lets users create posts by uploading content/images or generating AI-powered drafts. Users can refine the output before confirming, and the finalized post is automatically shared across their connected social media accounts (Instagram, Twitter, Facebook, etc.).",
       image: "/media.png?height=300&width=500",
       tags: ["React", "Node.js", "MongoDB","Tailwind" ,"web"],
       github: "https://github.com/Tanishq595/Social-Media-Automation",
