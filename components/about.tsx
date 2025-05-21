@@ -177,7 +177,7 @@ export default function About() {
   className="bg-emerald-500 hover:bg-emerald-600 text-black"
   onClick={() => {
     const link = document.createElement('a');
-    link.href = '/resumes/Resume_Tanishq_Agarwal.pdf';
+    link.href = 'https://raw.githubusercontent.com/Tanishq595/portfolio/main/resumes/Resume_Tanishq_Agarwal.pdf';
     link.download = 'Tanishq_Agarwal_Resume.pdf';
     link.click();
   }}
