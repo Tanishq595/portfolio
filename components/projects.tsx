@@ -12,7 +12,7 @@ export default function Projects() {
   const [activeTab, setActiveTab] = useState("all")
 
   const projects = [
-    {
+    
  {
       title: "Social Media Automation (In Progress)",
       description: "A web app that lets users create posts by uploading content/images or generating AI-powered drafts. Users can refine the output before confirming, and the finalized post is automatically shared across their connected social media accounts (Instagram, Twitter, Facebook, etc.)."
@@ -21,7 +21,7 @@ export default function Projects() {
       github: "https://github.com/Tanishq595/Social-Media-Automation",
       demo: "https://social-media-automation-swart.vercel.app/",
     },
-      
+    {
       title: "DotAI Crypto Web Application",
       description:
         "A full-featured crypto application with real-time transaction integration, wallet connection and creation, and minting LST tokens features.",
