@@ -194,7 +194,7 @@ export default function Hero() {
   whileHover={{ scale: 1.05 }}
   whileTap={{ scale: 0.95 }}
   onClick={() => {
-    window.location.href = 'https://tanishq595.github.io/portfolio/projects';
+    window.location.href = '#projects';
   }}
 >
   <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-emerald-600 to-teal-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
