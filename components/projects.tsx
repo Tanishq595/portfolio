@@ -20,7 +20,7 @@ export default function Projects() {
     
   image: "/crypto.PNG?height=300&width=500",
 
-      tags: ["React", "Node.js", "MongoDB", "Wagmi"],
+      tags: ["React", "Node.js", "MongoDB", "Wagmi", "web"],
       github: "https://github.com/Tanishq595/BifrostSample1",
       
     },
@@ -29,18 +29,18 @@ export default function Projects() {
       description:
         "A dual-portal system: Admins can manage (add/delete) database content via a GUI without accessing MongoDB directly, while users browse and select themes from the available data directly fetched from the database.",
       image: "/theme.jpeg?height=300&width=500",
-      tags: ["Next.js", "TypeScript", "React", "Tailwind", "HTML"],
+      tags: ["Next.js", "TypeScript", "React", "Tailwind", "HTML", "web"],
       github: "https://github.com/Tanishq595/ThemeManagement",
       demo: "https://theme-management.vercel.app/",
     },
-    // {
-    //   title: "Fitness Tracker",
-    //   description: "A mobile application for tracking workouts, nutrition, and health metrics with data visualization.",
-    //   image: "/placeholder.svg?height=300&width=500",
-    //   tags: ["React Native", "GraphQL", "mobile"],
-    //   github: "#",
-    //   demo: "#",
-    // },
+    {
+      title: "Collaborative Whiteboard App",
+      description: "This is a real-time collaborative whiteboard application that allows multiple users to draw simultaneously on a shared canvas. Built using HTML5, JavaScript, and WebSocket, this project is perfect for collaborative brainstorming, online teaching, or just having fun with friends!",
+      image: "/placeholder.svg?height=300&width=500",
+      tags: ["HTML", "CSS", "JavaScript", "WebSockets", "web"],
+      github: "https://github.com/Tanishq595/whiteboard-app",
+      
+    },
     // {
     //   title: "Weather Dashboard",
     //   description: "A weather forecasting application with interactive maps and real-time weather data.",
