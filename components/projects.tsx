@@ -213,10 +213,23 @@ export default function Projects() {
           transition={{ duration: 0.5 }}
           className="text-center mt-12"
         >
-          <Button className="bg-emerald-500 hover:bg-emerald-600 text-black">
+{/*           <Button className="bg-emerald-500 hover:bg-emerald-600 text-black">
             <Github className="mr-2 h-4 w-4" />
             View More on GitHub
-          </Button>
+          </Button> */}
+          <Button 
+  className="bg-emerald-500 hover:bg-emerald-600 text-black"
+  asChild // This allows the Button to render as a link
+>
+  <a 
+    href="https://github.com/Tanishq595" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <Github className="mr-2 h-4 w-4" />
+    View More on GitHub
+  </a>
+</Button>
         </motion.div>
       </div>
     </section>
