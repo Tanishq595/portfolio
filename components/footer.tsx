@@ -33,7 +33,7 @@ export default function Footer() {
             </p>
 
             <div className="flex space-x-4">
-              <Button
+{/*               <Button
                 variant="ghost"
                 size="icon"
                 className="rounded-full hover:bg-emerald-500/10 hover:text-emerald-500"
@@ -60,7 +60,50 @@ export default function Footer() {
                 className="rounded-full hover:bg-emerald-500/10 hover:text-emerald-500"
               >
                 <Mail className="h-5 w-5" />
-              </Button>
+              </Button> */}
+              <Button
+  variant="ghost"
+  size="icon"
+  className="rounded-full hover:bg-emerald-500/10 hover:text-emerald-500"
+  asChild
+>
+  <a href="https://github.com/Tanishq595" target="_blank" rel="noopener noreferrer">
+    <Github className="h-5 w-5" />
+  </a>
+</Button>
+
+<Button
+  variant="ghost"
+  size="icon"
+  className="rounded-full hover:bg-emerald-500/10 hover:text-emerald-500"
+  asChild
+>
+  <a href="https://www.linkedin.com/in/tanishqagarwal595/" target="_blank" rel="noopener noreferrer">
+    <Linkedin className="h-5 w-5" />
+  </a>
+</Button>
+
+<Button
+  variant="ghost"
+  size="icon"
+  className="rounded-full hover:bg-emerald-500/10 hover:text-emerald-500"
+  asChild
+>
+  <a href="https://x.com/tanishq596" target="_blank" rel="noopener noreferrer">
+    <Twitter className="h-5 w-5" />
+  </a>
+</Button>
+
+<Button
+  variant="ghost"
+  size="icon"
+  className="rounded-full hover:bg-emerald-500/10 hover:text-emerald-500"
+  asChild
+>
+  <a href="mailto:tanishqagarwal595@gmail.com">
+    <Mail className="h-5 w-5" />
+  </a>
+</Button>
             </div>
           </div>
 
