@@ -5,6 +5,7 @@ import { motion, useAnimation, useInView } from "framer-motion"
 import { ArrowDown, Terminal, Code, Sparkles, Cpu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
+import Link from 'next/link';
 
 export default function Hero() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -170,7 +171,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.8 }}
               className="flex flex-wrap gap-4"
             >
-              <Button
+{/*               <Button
                 className="bg-emerald-500 hover:bg-emerald-600 text-black relative overflow-hidden group"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -186,7 +187,31 @@ export default function Hero() {
               >
                 <span className="absolute inset-0 w-0 bg-emerald-500/10 group-hover:w-full transition-all duration-300" />
                 <span className="relative z-10">Contact Me</span>
-              </Button>
+              </Button> */}
+
+              <Link href="/projects" passHref>
+  <Button
+    className="bg-emerald-500 hover:bg-emerald-600 text-black relative overflow-hidden group"
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+  >
+    <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-emerald-600 to-teal-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+    <span className="relative z-10">View My Work</span>
+  </Button>
+</Link>
+
+// For Contact button
+<Link href="/contact" passHref>
+  <Button
+    variant="outline"
+    className="border-emerald-500 text-emerald-500 hover:bg-emerald-500/10 relative overflow-hidden group"
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+  >
+    <span className="absolute inset-0 w-0 bg-emerald-500/10 group-hover:w-full transition-all duration-300" />
+    <span className="relative z-10">Contact Me</span>
+  </Button>
+</Link>
             </motion.div>
           </motion.div>
 
