@@ -125,7 +125,7 @@ export default function Skills() {
               </h3>
 
               <div className="grid grid-cols-3 gap-4">
-                {["JavaScript", "TypeScript", "Python", "Java", "C++", "PHP", "Go", "Ruby", "Swift"].map(
+                {["JavaScript", "TypeScript", "Python", "Java", "C++", "PHP", "HTML/CSS", "React", "Node.Js"].map(
                   (lang, index) => (
                     <motion.div
                       key={index}
@@ -152,7 +152,7 @@ export default function Skills() {
               </h3>
 
               <div className="grid grid-cols-3 gap-4">
-                {["Git", "GitHub", "GitLab", "Bitbucket", "SVN", "CI/CD"].map((tool, index) => (
+                {["Git", "GitHub", "Figma"].map((tool, index) => (
                   <motion.div
                     key={index}
                     initial={{ opacity: 0, scale: 0.8 }}
