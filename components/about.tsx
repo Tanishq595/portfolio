@@ -80,7 +80,7 @@ export default function About() {
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-emerald-500">5+</div>
+                  <div className="text-4xl font-bold text-emerald-500">2+</div>
                   <div className="text-sm">Years of Experience</div>
                 </div>
               </motion.div>
@@ -171,7 +171,19 @@ export default function About() {
               </Card>
             </div>
 
-            <Button className="bg-emerald-500 hover:bg-emerald-600 text-black">Download Resume</Button>
+{/*             <Button className="bg-emerald-500 hover:bg-emerald-600 text-black">Download Resume</Button> */}
+
+            <Button 
+  className="bg-emerald-500 hover:bg-emerald-600 text-black"
+  onClick={() => {
+    const link = document.createElement('a');
+    link.href = 'Tanishq_Agarwal_Resume.pdf';
+    link.download = 'Tanishq_Agarwal_Resume.pdf';
+    link.click();
+  }}
+>
+  Download Resume
+</Button>
           </motion.div>
         </div>
       </div>
