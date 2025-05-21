@@ -41,14 +41,14 @@ export default function Projects() {
       github: "https://github.com/Tanishq595/whiteboard-app",
       
     },
-    // {
-    //   title: "Weather Dashboard",
-    //   description: "A weather forecasting application with interactive maps and real-time weather data.",
-    //   image: "/placeholder.svg?height=300&width=500",
-    //   tags: ["JavaScript", "APIs", "CSS", "web"],
-    //   github: "#",
-    //   demo: "#",
-    // },
+    {
+      title: "Professor Portfolio",
+      description: "A portfolio website for Professor Jin Shang at CityU according to his style requirements with basic effects and styling.",
+      image: "/prof.png?height=300&width=500",
+      tags: ["HTML", "CSS", "Javascript", "web"],
+      github: "https://github.com/Tanishq595/tanishq595.github.io",
+      demo: "https://jinshang-see.github.io/JinShangGroup.github.io/home.html",
+    },
     // {
     //   title: "Inventory Management System",
     //   description: "A comprehensive inventory management system for small businesses with barcode scanning.",
