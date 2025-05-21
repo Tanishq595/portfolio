@@ -134,7 +134,7 @@ export default function About() {
                   />
                   <div className="font-mono text-sm relative z-10">
                     <span className="text-emerald-500">const</span> <span className="text-purple-400">location</span>{" "}
-                    <span className="text-white">=</span> <span className="text-yellow-300">'India'</span>;
+                    <span className="text-white">=</span> <span className="text-yellow-300">'Hong Kong'</span>;
                   </div>
                 </CardContent>
               </Card>
@@ -149,7 +149,7 @@ export default function About() {
                   />
                   <div className="font-mono text-sm relative z-10">
                     <span className="text-emerald-500">const</span> <span className="text-purple-400">email</span>{" "}
-                    <span className="text-white">=</span> <span className="text-yellow-300">'tanishq@example.com'</span>
+                    <span className="text-white">=</span> <span className="text-yellow-300">'tanishqagarwal595@gmail.com'</span>
                     ;
                   </div>
                 </CardContent>
