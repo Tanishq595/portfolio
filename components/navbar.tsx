@@ -110,16 +110,30 @@ export default function Navbar() {
                 <span className="absolute inset-0 w-0 bg-white/20 group-hover:w-full transition-all duration-300 ease-out" />
                 <span className="relative z-10">Resume</span>
               </Button> */}
-              <a 
-  href="https://raw.githubusercontent.com/Tanishq595/portfolio/main/Resume_Tanishq_Agarwal.pdf" 
-  download="Tanishq_Agarwal_Resume.pdf"
-  className="inline-block"
+              <Button 
+  className="bg-emerald-500 hover:bg-emerald-600 text-black relative overflow-hidden group"
+  onClick={() => {
+    // Create temporary link
+    const link = document.createElement('a');
+    link.href = 'https://raw.githubusercontent.com/Tanishq595/portfolio/main/resumes/Resume_Tanishq_Agarwal.pdf';
+    link.download = 'Tanishq_Agarwal_Resume.pdf';
+    
+  
+    document.body.appendChild(link);
+    
+  
+    link.click();
+    
+    // Clean up
+    setTimeout(() => {
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(link.href);
+    }, 100);
+  }}
 >
-  <Button className="bg-emerald-500 hover:bg-emerald-600 text-black relative overflow-hidden group">
-    <span className="absolute inset-0 w-0 bg-white/20 group-hover:w-full transition-all duration-300 ease-out" />
-    <span className="relative z-10">Resume</span>
-  </Button>
-</a>
+  <span className="absolute inset-0 w-0 bg-white/20 group-hover:w-full transition-all duration-300 ease-out" />
+  <span className="relative z-10">Resume</span>
+</Button>
             </motion.div>
           </nav>
 
