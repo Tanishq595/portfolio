@@ -13,9 +13,9 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Crypto Web Application",
+      title: "DotAI Crypto Web Application",
       description:
-        "A full-featured crypto application with payment integration, wallet connection and creation, and minting LST tokens features.",
+        "A full-featured crypto application with real-time transaction integration, wallet connection and creation, and minting LST tokens features.",
      
     
   image: "/crypto.PNG?height=300&width=500",
@@ -24,15 +24,15 @@ export default function Projects() {
       github: "https://github.com/Tanishq595/BifrostSample1",
       
     },
-    // {
-    //   title: "Task Management App",
-    //   description:
-    //     "A collaborative task management application with real-time updates and team collaboration features.",
-    //   image: "/placeholder.svg?height=300&width=500",
-    //   tags: ["Next.js", "TypeScript", "Firebase", "Tailwind", "web"],
-    //   github: "#",
-    //   demo: "#",
-    // },
+    {
+      title: "Theme Selector And Management",
+      description:
+        "A dual-portal system: Admins can manage (add/delete) database content via a GUI without accessing MongoDB directly, while users browse and select themes from the available data directly fetched from the database.",
+      image: "/theme.jpeg?height=300&width=500",
+      tags: ["Next.js", "TypeScript", "React", "Tailwind", "HTML"],
+      github: "https://github.com/Tanishq595/ThemeManagement",
+      demo: "https://theme-management.vercel.app/",
+    },
     // {
     //   title: "Fitness Tracker",
     //   description: "A mobile application for tracking workouts, nutrition, and health metrics with data visualization.",
