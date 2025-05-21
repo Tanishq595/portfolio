@@ -316,7 +316,7 @@ export default function Contact() {
           subject: formData.subject,
           message: formData.message,
         },
-        "YOUR_PUBLIC_KEY" // Replace with your EmailJS public key
+        "Rx0PwHjKULPtxMqjf" // Replace with your EmailJS public key
       )
 
       console.log("Email sent successfully:", response.status, response.text)
