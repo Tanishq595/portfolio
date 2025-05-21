@@ -257,9 +257,30 @@ export default function Navbar() {
       <Linkedin className="h-5 w-5" />
     </a>
   </Button>
-  {/* Add Twitter if needed */}
+<Button 
+    variant="ghost" 
+    size="icon" 
+    className="rounded-full"
+    asChild
+  >
+    <a href="https://www.x.com/tanishq596" target="_blank" rel="noopener noreferrer">
+      <Twitter className="h-5 w-5" />
+    </a>
+  </Button>
+ 
 </div>
-              <Button className="bg-emerald-500 hover:bg-emerald-600 text-black w-full">Resume</Button>
+{/*               <Button className="bg-emerald-500 hover:bg-emerald-600 text-black w-full">Resume</Button> */}
+              <Button 
+  className="bg-emerald-500 hover:bg-emerald-600 text-black w-full"
+  onClick={() => {
+    const link = document.createElement('a');
+    link.href = 'https://raw.githubusercontent.com/Tanishq595/portfolio/main/resumes/Resume_Tanishq_Agarwal.pdf';
+    link.download = 'Tanishq_Agarwal_Resume.pdf';
+    link.click();
+  }}
+>
+  Download Resume
+</Button>
             </nav>
           </div>
         </motion.div>
