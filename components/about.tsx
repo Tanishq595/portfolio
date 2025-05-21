@@ -173,11 +173,11 @@ export default function About() {
 
 {/*             <Button className="bg-emerald-500 hover:bg-emerald-600 text-black">Download Resume</Button> */}
 
-            <Button 
+<Button 
   className="bg-emerald-500 hover:bg-emerald-600 text-black"
   onClick={() => {
     const link = document.createElement('a');
-    link.href = '/Resume_Tanishq_Agarwal.pdf';
+    link.href = '/resumes/Resume_Tanishq_Agarwal.pdf';
     link.download = 'Tanishq_Agarwal_Resume.pdf';
     link.click();
   }}
