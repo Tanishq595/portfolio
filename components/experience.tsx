@@ -54,11 +54,7 @@ export default function Experience() {
   ]
 
   const certifications = [
-    "AWS Certified Developer Associate",
-    "Google Cloud Professional Developer",
-    "MongoDB Certified Developer",
-    "React Native Specialist",
-    "Certified Scrum Master",
+    "Soon.......",
   ]
 
   return (
