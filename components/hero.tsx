@@ -257,9 +257,14 @@ export default function Hero() {
                 <div className="w-full h-full bg-gradient-to-br from-gray-900 to-black flex items-center justify-center">
                   <div className="relative w-full h-full">
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-64 h-64 rounded-full bg-gradient-to-r from-emerald-500 to-teal-600 flex items-center justify-center text-black text-4xl font-bold">
+{/*                       <div className="w-64 h-64 rounded-full bg-gradient-to-r from-emerald-500 to-teal-600 flex items-center justify-center text-black text-4xl font-bold">
                         TA
-                      </div>
+                      </div> */}
+                      <img
+      src="/Tanishq.jpeg" 
+      alt="Tanishq Agarwal Profile"
+      className="w-full h-full object-cover rounded-2xl"
+    />
                     </div>
 
                     {/* Code-like overlay effect */}
