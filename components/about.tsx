@@ -46,7 +46,7 @@ export default function About() {
                   Tanishq Agarwal
                 </div> */}
                 <img
-    src="/Tanishq2.JPG" 
+    src="/Tanishq2.jpg" 
     alt="Tanishq Agarwal Profile"
     className="w-full h-full object-cover"
   />
