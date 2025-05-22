@@ -41,10 +41,15 @@ export default function About() {
               }}
             >
               <div className="w-full h-80 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-lg overflow-hidden relative">
-                <div className="absolute inset-0 flex items-center justify-center text-black font-bold text-xl">
+{/*                 <div className="absolute inset-0 flex items-center justify-center text-black font-bold text-xl">
                   <Code className="w-16 h-16 mr-2" />
                   Tanishq Agarwal
-                </div>
+                </div> */}
+                <img
+    src="/Tanishq2.jpg" // Adjust the path to your image
+    alt="Tanishq Agarwal Profile"
+    className="w-full h-full object-cover"
+  />
 
                 {/* Add animated code particles */}
                 <div className="absolute inset-0 overflow-hidden opacity-30">
