@@ -21,6 +21,16 @@ export default function Projects() {
       github: "https://github.com/Tanishq595/Social-Media-Automation",
       demo: "https://social-media-automation-swart.vercel.app/",
     },
+
+{
+      title: "AI Restaurant Finder",
+      description: "A full-stack web application that helps users find restaurant recommendations based on their location using AI-powered suggestions. Built with Node.js/Express backend and Vue.js/Quasar frontend.",
+      image: "/media.png?height=300&width=500",
+      tags: ["Vue", "Node.js", "Quasar","Express.js", "Typescript","web"],
+      github: "https://github.com/Tanishq595/restaurant-finder",
+      
+    },
+    
     {
       title: "DotAI Crypto Web Application",
       description:
