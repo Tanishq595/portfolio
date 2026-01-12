@@ -8,6 +8,25 @@ import { Badge } from "@/components/ui/badge"
 export default function Experience() {
   const workExperience = [
     {
+      title: "Full Stack Developer",
+      company: "Echo Cubes Limited (Asia Allied Infrastructure Holdings Limited
+)",
+      location: "Hong Kong",
+      period: "Sep 2025 - Present",
+      description:
+        "Responsible for QA testing for the Think and Speak / All in One Platform and frontend + backend developement of the core features. Also involves UAT testing and reporting bugs.",
+      skills: ["Java", "React", "MySQL", "Javascript"],
+    },
+    {
+      title: "Full Stack Developer",
+      company: "852healthkare",
+      location: "Hong Kong",
+      period: "Sep 2025 - Present",
+      description:
+        "Designed and implemented a multi-agent healthcare chatbot capable of intent analysis, medical report interpretation and linked it to various submodules capable of answering relevant questions and auto perform tasks. Led the end-to-end development of both the Patient App and Clinic Portal including complex Booking flows, different submodules like Diet and Workout , Vitals tracking, and Electronic Medical Records (EMR) as well as code cleanup initiatives.",
+      skills: ["Vue.js", "Quasar", "MongoDB","WebSockets", "Javascript", "Typescript"],
+    },
+    {
       title: "Web Programming & Application Development Intern",
       company: "Hong Kong Institute for Advanced Study",
       location: "Hong Kong",
