@@ -7,6 +7,7 @@ import { Code2, Database, Layout, Server, Smartphone, Cpu, Cloud, GitBranch, Ter
 export default function Skills() {
   const skills = [
     { name: "HTML/CSS", level: 90 },
+    { name: "Vue/Quasar", level: 85 },
     { name: "JavaScript", level: 85 },
     { name: "TypeScript", level: 80 },
     { name: "React", level: 85 },
@@ -22,12 +23,12 @@ export default function Skills() {
     {
       title: "Frontend Development",
       icon: <Layout className="h-10 w-10 text-emerald-500" />,
-      skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS/JS"],
+      skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS/JS", "Vue/Quasar"],
     },
     {
       title: "Backend Development",
       icon: <Server className="h-10 w-10 text-emerald-500" />,
-      skills: ["Node.js", "Python","REST APIs"],
+      skills: ["Node.js", "Python","REST APIs" , "Javascript"],
     },
     {
       title: "Database",
