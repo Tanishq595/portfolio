@@ -9,8 +9,7 @@ export default function Experience() {
   const workExperience = [
     {
       title: "Full Stack Developer",
-      company: "Echo Cubes Limited (Asia Allied Infrastructure Holdings Limited
-)",
+      company: "Echo Cubes Limited (Asia Allied Infrastructure Holdings Limited)",
       location: "Hong Kong",
       period: "Sep 2025 - Present",
       description:
