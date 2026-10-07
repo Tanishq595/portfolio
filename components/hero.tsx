@@ -151,7 +151,7 @@ export default function Hero() {
             >
               <div className="flex items-center">
                 <span className="mr-2">I build</span>
-                <span className="font-mono text-emerald-500 typing-animation">innovative web applications</span>
+                <span className="font-mono text-emerald-500 typing-animation">AI-powered web applications</span>
               </div>
             </motion.div>
 
@@ -161,8 +161,8 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.6 }}
               className="text-gray-400 mb-8 max-w-2xl"
             >
-              Passionate software developer specializing in creating exceptional digital experiences. Focused on
-              building accessible, human-centered products with modern technologies.
+              Full stack developer building multi-agent LLM systems, RAG pipelines and the apps around them. Currently
+              studying Computer Science at City University of Hong Kong.
             </motion.p>
 
             <motion.div
@@ -272,8 +272,8 @@ export default function Hero() {
                       <pre className="text-xs text-emerald-500 leading-tight p-4">
                         {`function Developer() {
   const [skills, setSkills] = useState([
-    'JavaScript', 'React', 'Node.js',
-    'TypeScript', 'Next.js'
+    'TypeScript', 'React', 'Node.js',
+    'Python', 'LLMs', 'RAG'
   ]);
   
   const projects = useProjects();

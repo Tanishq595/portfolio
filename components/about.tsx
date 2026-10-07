@@ -104,13 +104,14 @@ export default function About() {
             </h3>
 
             <p className="text-gray-400 mb-6">
-              Hello! I'm Tanishq, a passionate software developer with expertise in building exceptional digital
-              experiences. I enjoy creating elegant solutions to complex problems.
+              Hello! I'm Tanishq, a Computer Science student at City University of Hong Kong (cGPA 3.82, Dean's List)
+              and a full stack developer who builds AI-powered products used by real people every day.
             </p>
 
             <p className="text-gray-400 mb-6">
-              My journey in programming began during my college years, and I've been hooked ever since. I specialize in
-              full-stack development, with a focus on modern JavaScript frameworks and cloud technologies.
+              I build multi-agent LLM systems, RAG pipelines and voice AI alongside the web and mobile apps around them,
+              from a 14-agent debate coach at Echo Cubes to the patient app and AI phone agents serving 5,000+ patients
+              at 852Healthkare.
             </p>
 
             <div className="grid grid-cols-2 gap-4 mb-6">

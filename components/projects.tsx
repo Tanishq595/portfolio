@@ -32,9 +32,17 @@ export default function Projects() {
     },
     
     {
+      title: "Hospital Report Structuring with AI",
+      description:
+        "A document extraction tool that uses Cohere's LLMs to automatically identify and format hospital reports by 5-digit patient ID.",
+      image: "/placeholder.svg?height=300&width=500",
+      tags: ["Python", "Cohere", "LLMs", "web"],
+      github: "https://github.com/Tanishq595/report-structuring",
+    },
+    {
       title: "DotAI Crypto Web Application",
       description:
-        "A full-featured crypto application with real-time transaction integration, wallet connection and creation, and minting LST tokens features.",
+        "A crypto web app where users create blockchain wallets, link existing addresses, make real-time transactions and mint Bifrost tokens.",
      
     
   image: "/crypto.PNG?height=300&width=500",

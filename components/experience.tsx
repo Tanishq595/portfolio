@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Briefcase, GraduationCap, Calendar, Building, MapPin, Award, BookOpen } from "lucide-react"
+import { Briefcase, GraduationCap, Calendar, Building, MapPin, Award, BookOpen, Users } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
@@ -13,17 +13,26 @@ export default function Experience() {
       location: "Hong Kong",
       period: "Sep 2025 - Present",
       description:
-        "Responsible for QA testing for the Think and Speak / All in One Platform and frontend + backend developement of the core features. Also involves UAT testing and reporting bugs.",
-      skills: ["Java", "React", "MySQL", "Javascript"],
+        "Architected a 14-agent LLM debate coach with RAG over 288 documents and 10,000+ motions, replying in under 5 seconds. Built voiceprint speaker identification (up to 95% accuracy) with live transcripts for multi-mic discussions at CityU. Built an AI hiring portal with resume and video scoring used by 477 applicants, plus a CMS, AI classroom and translation tools.",
+      skills: ["LLMs", "RAG", "LangGraph", "STT/TTS", "React", "Node.js", "TypeScript"],
     },
     {
-      title: "Full Stack Developer",
-      company: "852healthkare",
+      title: "Full Stack Developer (Part-Time)",
+      company: "852Healthkare",
       location: "Hong Kong",
       period: "Sep 2025 - Present",
       description:
-        "Designed and implemented a multi-agent healthcare chatbot capable of intent analysis, medical report interpretation and linked it to various submodules capable of answering relevant questions and auto perform tasks. Led the end-to-end development of both the Patient App and Clinic Portal including complex Booking flows, different submodules like Diet and Workout , Vitals tracking, and Electronic Medical Records (EMR) as well as code cleanup initiatives.",
-      skills: ["Vue.js", "Quasar", "MongoDB","WebSockets", "Javascript", "Typescript"],
+        "Built multi-agent AI WhatsApp and phone agents that handle bookings and queries in English, Cantonese and Mandarin. Led the Patient App and Clinic Portal used daily at 852 Clinic by 5,000+ patients, covering booking, payments, video consults, chat, queues and EMR, and integrated 15+ services including Stripe, KPay, WhatsApp and OpenAI.",
+      skills: ["Vue.js", "Quasar", "Node.js", "MongoDB", "Stripe", "WebRTC", "OpenAI"],
+    },
+    {
+      title: "Systems Integration Engineer",
+      company: "Digital Domain Holdings Limited",
+      location: "Hong Kong",
+      period: "June 2025 - Aug 2025",
+      description:
+        "Designed and optimized LLM workflows, covering deployment, performance tuning and AI integration. Built responsive web UIs in HTML/CSS/TypeScript and stable third-party API and hardware integrations.",
+      skills: ["LLMs", "TypeScript", "HTML/CSS", "REST APIs"],
     },
     {
       title: "Web Programming & Application Development Intern",
@@ -56,11 +65,12 @@ export default function Experience() {
 
   const education = [
     {
-      degree: "Bachelor of Computer Science",
+      degree: "Bachelor of Science in Computer Science",
       institution: "City University of Hong Kong",
       location: "Hong Kong",
-      period: "2023 - 2027",
-      description: "Specialized in Software Engineering with focus on web technologies and distributed systems.",
+      period: "2023 - June 2027 (Expected)",
+      description:
+        "cGPA 3.82 (Dean's List). Relevant courses: Database Management, Data Structures, Computer Organization, Computer Networks.",
     },
     {
       degree: "High School",
@@ -71,8 +81,19 @@ export default function Experience() {
     },
   ]
 
-  const certifications = [
-    "Soon.......",
+  const leadership = [
+    {
+      title: "Operations Event Manager",
+      organization: "SCMUN 2026, See Change Education",
+      location: "City University of Hong Kong",
+      period: "Summer 2026",
+      description:
+        "Ran end-to-end operations for a 160+ delegate Model United Nations conference: coordinated vendors and venue logistics with CityU staff, and led 10+ staff and 17 student helpers as the on-site point of contact.",
+    },
+  ]
+
+  const awards = [
+    "CityU ESG X Fintech Hackathon: Finalist among 40+ inter-university teams with a fintech solution for ESG challenges",
   ]
 
   return (
@@ -228,8 +249,50 @@ export default function Experience() {
             </div>
 
             <div className="flex items-center mb-8">
+              <Users className="h-6 w-6 text-emerald-500 mr-3" />
+              <h3 className="text-2xl font-bold">Leadership</h3>
+            </div>
+
+            <div className="relative border-l-2 border-emerald-500/30 pl-8 ml-3 space-y-10 mb-16">
+              {leadership.map((role, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, x: -20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: 0.1 * index }}
+                  className="relative"
+                >
+                  <div className="absolute -left-11 top-0 w-6 h-6 rounded-full bg-gray-900 border-2 border-emerald-500 flex items-center justify-center">
+                    <div className="w-2 h-2 rounded-full bg-emerald-500"></div>
+                  </div>
+
+                  <Card className="bg-gray-900 border-gray-800">
+                    <CardContent className="p-6">
+                      <div className="flex flex-wrap justify-between items-start mb-2">
+                        <h4 className="text-xl font-bold">{role.title}</h4>
+                        <Badge className="bg-emerald-500/20 text-emerald-500 border-emerald-500/20">
+                          <Calendar className="mr-1 h-3 w-3" /> {role.period}
+                        </Badge>
+                      </div>
+
+                      <div className="flex items-center text-gray-400 mb-4">
+                        <Building className="h-4 w-4 mr-1" />
+                        <span className="mr-4">{role.organization}</span>
+                        <MapPin className="h-4 w-4 mr-1" />
+                        <span>{role.location}</span>
+                      </div>
+
+                      <p className="text-gray-400">{role.description}</p>
+                    </CardContent>
+                  </Card>
+                </motion.div>
+              ))}
+            </div>
+
+            <div className="flex items-center mb-8">
               <Award className="h-6 w-6 text-emerald-500 mr-3" />
-              <h3 className="text-2xl font-bold">Certifications</h3>
+              <h3 className="text-2xl font-bold">Honors & Awards</h3>
             </div>
 
             <motion.div
@@ -241,17 +304,17 @@ export default function Experience() {
               <Card className="bg-gray-900 border-gray-800">
                 <CardContent className="p-6">
                   <ul className="space-y-3">
-                    {certifications.map((cert, index) => (
+                    {awards.map((award, index) => (
                       <motion.li
                         key={index}
                         initial={{ opacity: 0, x: -10 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.3, delay: 0.1 * index }}
-                        className="flex items-center"
+                        className="flex items-start"
                       >
-                        <div className="w-2 h-2 bg-emerald-500 rounded-full mr-2"></div>
-                        <span>{cert}</span>
+                        <div className="w-2 h-2 bg-emerald-500 rounded-full mr-2 mt-2 shrink-0"></div>
+                        <span>{award}</span>
                       </motion.li>
                     ))}
                   </ul>

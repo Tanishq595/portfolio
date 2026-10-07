@@ -28,8 +28,8 @@ export default function Footer() {
             </Link>
 
             <p className="text-gray-400 mb-6 max-w-md">
-              A passionate software developer specializing in creating exceptional digital experiences. Let's work
-              together to bring your ideas to life.
+              A software developer building LLM-powered products. Let's work together to bring your ideas
+              to life.
             </p>
 
             <div className="flex space-x-4">

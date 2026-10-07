@@ -23,32 +23,32 @@ export default function Skills() {
     {
       title: "Frontend Development",
       icon: <Layout className="h-10 w-10 text-emerald-500" />,
-      skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS/JS", "Vue/Quasar"],
+      skills: ["React", "Next.js", "Vue.js", "Quasar", "Tailwind CSS", "HTML/CSS"],
     },
     {
       title: "Backend Development",
       icon: <Server className="h-10 w-10 text-emerald-500" />,
-      skills: ["Node.js", "Python","REST APIs" , "Javascript"],
+      skills: ["Node.js", "Express", "Socket.io", "REST APIs", "WebRTC", "Agora"],
     },
     {
       title: "Database",
       icon: <Database className="h-10 w-10 text-emerald-500" />,
-      skills: ["MongoDB", "MySQL"],
+      skills: ["MongoDB", "PostgreSQL", "Redis", "SQL", "Vector DBs"],
     },
     {
-      title: "Mobile Development",
-      icon: <Smartphone className="h-10 w-10 text-emerald-500" />,
-      skills: ["React Native","Mobile UI/UX"],
+      title: "AI / LLM",
+      icon: <Cpu className="h-10 w-10 text-emerald-500" />,
+      skills: ["OpenAI & Claude APIs", "Hugging Face", "Local LLMs", "RAG", "LangChain / LangGraph", "STT/TTS"],
     },
     {
-      title: "DevOps",
+      title: "DevOps & Cloud",
       icon: <Cloud className="h-10 w-10 text-emerald-500" />,
-      skills: [ "AWS", "Vercel"],
+      skills: ["Docker", "AWS", "CI/CD", "Vercel"],
     },
     {
-      title: "Tools & Others",
+      title: "Tools & Testing",
       icon: <Terminal className="h-10 w-10 text-emerald-500" />,
-      skills: ["Git", "GitHub", "VS Code", "Figma"],
+      skills: ["Git", "Playwright", "Jest", "Stripe", "Figma"],
     },
   ]
 
@@ -67,8 +67,8 @@ export default function Skills() {
           </h2>
           <div className="w-20 h-1 bg-emerald-500 mx-auto mb-6"></div>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            I've worked with a variety of technologies in the web development world. Here's a snapshot of my technical
-            expertise and what I bring to the table.
+            I work across the full stack and on AI/LLM systems. Here's a snapshot of my technical expertise and what I
+            bring to the table.
           </p>
         </motion.div>
 
@@ -126,7 +126,7 @@ export default function Skills() {
               </h3>
 
               <div className="grid grid-cols-3 gap-4">
-                {["JavaScript", "TypeScript", "Python", "Java", "C++", "PHP", "HTML/CSS", "React", "Node.Js"].map(
+                {["Java", "C++", "Python", "PHP", "TypeScript", "JavaScript", "SQL", "HTML/CSS", "Assembly"].map(
                   (lang, index) => (
                     <motion.div
                       key={index}
